@@ -49,6 +49,7 @@ export class ExpenseListFilters extends React.Component {
                     numberOfMonths={1}
                     isOutsideRange={() => false}
                     displayFormat="DD/MM/YYYY"
+                    firstDayOfWeek={1}
                 />
             </div>
         );
